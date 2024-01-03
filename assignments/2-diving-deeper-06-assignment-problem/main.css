@@ -1,0 +1,19 @@
+
+.my-box {
+    background-color: antiquewhite;
+    border: 2px black solid;
+    padding: 10px 2px 8px 12px;
+    margin: 8px 12px 10px 2px;
+    display: inline-block;
+}
+
+.first-box {
+    height: 300px;
+    width: 50%;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+div > div:last-child:hover {
+    background-color: aqua;
+}
