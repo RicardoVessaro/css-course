@@ -28,11 +28,17 @@ body {
     margin: 10px;
 }
 
-.parent .child-1 {
+/* .parent .child-1 {
   position: fixed;
   width: 100%;
   left: 0;
   top: 0;
   margin: 0;
   box-sizing: border-box;
+} */
+
+.parent .child-1 {
+  position: relative;
+  top: 300px;
+  right: 50px;
 }
