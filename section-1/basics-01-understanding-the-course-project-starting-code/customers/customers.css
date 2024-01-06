@@ -1,7 +1,8 @@
 .testimonial {
     /* font-size: 20px; */
     font-size: 1.2rem;
-    margin: 48px 0;
+    /* margin: 48px 0; */
+    margin: 3rem 0;
   }
   
 .testimonial__list {
@@ -10,7 +11,7 @@
 }
 
 .testimonial:first-of-type {
-  margin-top: 96px;
+  margin-top: 6rem;
 }
 
 .testimonial__image-container {
@@ -28,7 +29,7 @@
 
 .testimonial__info {
   text-align: right;
-  padding: 14px;
+  padding: 0.9rem;
   display: inline-block;
   vertical-align: middle;
   width: 20%;
@@ -43,7 +44,7 @@
 }
 
 .testimonial__name {
-  margin: 3px;
+  margin: 0.2rem;
   color: #ff5454;
   font-size: 2rem;
 }
@@ -65,7 +66,7 @@
 }
 
 .testimonial__text {
-  margin: 3px;
+  margin: 0.2rem;
 }
   
   
