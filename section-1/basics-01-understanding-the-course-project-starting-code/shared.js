@@ -10,7 +10,11 @@ for(var i = 0; i < selectPlanButtons.length; i++) {
 }
 
 var modalCloseButton = document.querySelector('.modal .modal__action--negative');
-modalCloseButton.addEventListener('click', function(){
+modalCloseButton.addEventListener('click', closeModal);
+
+backdrop.addEventListener('click', closeModal);
+
+function closeModal() {
     modal.style.display = 'none';
     backdrop.style.display = 'none';
-});
+}
