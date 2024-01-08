@@ -8,3 +8,9 @@ for(var i = 0; i < selectPlanButtons.length; i++) {
         backdrop.style.display = 'block';
     });
 }
+
+var modalCloseButton = document.querySelector('.modal .modal__action--negative');
+modalCloseButton.addEventListener('click', function(){
+    modal.style.display = 'none';
+    backdrop.style.display = 'none';
+});
