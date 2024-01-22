@@ -18,7 +18,9 @@ body {
     background: white;
     padding: 10px;
     border: 5px solid black;
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
 .item-1 {
