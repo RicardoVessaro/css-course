@@ -7,6 +7,9 @@
     grid-auto-rows: minmax(8rem, auto);
     grid-auto-flow: row;
     grid-auto-columns: 5rem;
+    grid-auto-rows: 12rem;
+    grid-auto-flow: row;
+    grid-auto-columns: 5rem;
 }
 
 .quote {
