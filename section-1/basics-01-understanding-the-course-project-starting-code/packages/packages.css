@@ -54,8 +54,8 @@ main {
     color: white;
     background: #ff5454;
     padding: 0.5rem;
-    transform: rotate(35deg);
-    transform-origin: top left;
+    transform: rotateZ(45deg);
+    transform-origin: center;
 }
 
 .package__subtitle {
