@@ -37,7 +37,8 @@ main {
     box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     border-color: #ff5454;
     /* border-color: #ff5454 !important; */
-    animation: push-up 200ms forwards;
+    /* animation: push-up 200ms forwards; My solution */
+    animation: push-up 1s ease-out forwards;
 }
 
 .package a {
@@ -129,7 +130,7 @@ main {
         border-right-color: #ff5454;
     }
 }
-
+/* My solution
 @keyframes push-up {
     from {
         transform: translateY(0);
@@ -138,5 +139,18 @@ main {
     to {
         transform: translateY(-1rem);
         box-shadow: 4px 4px 6px rgba(0,0,0,0.5);
+    }
+} */
+@keyframes push-up {
+    0% {
+        tranform: translateY(0);
+    }
+
+    33% {
+        tranform: translateY(-1.5rem);
+    }
+
+    100% {
+        transform: translateY(-1rem);
     }
 }
