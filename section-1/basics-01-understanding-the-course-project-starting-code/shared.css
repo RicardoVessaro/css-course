@@ -188,6 +188,8 @@ main {
     background: white;
     width: 80%;
     height: 100vh;
+    transform: translateX(-20rem);
+    transition: transform 0.2s cubic-bezier(0.32, 0, 0.67, 0);
 }
   
 .mobile-nav__items {
